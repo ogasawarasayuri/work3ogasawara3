@@ -1,7 +1,11 @@
 @charset "utf-8";
 body{
     background-color: #eeeeee;
+    
+}
+.contents{
     max-width: 960px;
+    margin: 0 auto;
 }
 .section-title{
        color: #50aea6;
@@ -12,7 +16,8 @@ body{
 div ul{
     display: flex;
 	justify-content: space-between;
-    margin: 30px;
+    margin: 30px 0;
+    padding: 0 30px;
     gap: 20px;
 }
 
@@ -21,8 +26,8 @@ div li{
     gap: 20px;
 }
 img{
-    height: 200px;
-    width: 300px;
+    
+    width: 100%;
 	
 }
 .contents1{
@@ -43,10 +48,13 @@ img{
     div ul{
         flex-direction: column;
         justify-content:space-around;
+        padding: 0 16px;
     }
     div li{
         background: #ffffff;
-    
+    }
+    img{
+        width: 100%;
     }
     
 }
